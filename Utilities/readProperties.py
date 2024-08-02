@@ -32,3 +32,9 @@ class readConfig():
     def getProductpageTitle():
         productpagetitle=config.get("main", "prodPageTitle")
         return productpagetitle;
+
+
+    @staticmethod
+    def get_iqooTornadoGreen_page_title():
+        iqooTG_page_title=config.get("main", "iqooTornadoGreen_page_title")
+        return iqooTG_page_title

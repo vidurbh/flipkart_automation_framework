@@ -1,39 +1,188 @@
-2024-08-01 01:18:52,903 - root - INFO - ****Test Case Failed****
-2024-08-01 01:19:51,032 - root - INFO - ****Test Case Failed****
-2024-08-01 01:20:52,476 - root - INFO - ****Test Case Failed****
-2024-08-01 01:33:23,407 - root - ERROR - Test Case failed
-2024-08-01 01:34:55,338 - root - INFO - Test Case failed
-2024-08-01 01:36:38,461 - root - INFO - Test Case failed
-2024-08-01 01:38:11,232 - root - INFO - Test Case failed
-2024-08-01 01:38:52,176 - root - INFO - Test Case failed
-2024-08-01 01:40:05,992 - root - INFO - Test Case failed
-2024-08-01 01:41:45,682 - root - INFO - Test Case failed
-2024-08-01 01:42:21,700 - root - INFO - Test Case failed
-2024-08-01 01:43:16,971 - root - INFO - Test Case failed
-2024-08-01 01:46:40,998 - root - INFO - ****TEst case passed****
-2024-08-01 10:24:33,296 - root - INFO - ****TEst case passed****
-2024-08-01 20:23:34,332 - root - INFO - Test Case Passed
-2024-08-01 20:23:44,782 - root - INFO - ****TEst case passed****
-2024-08-01 20:24:50,951 - root - INFO - Test Case Passed
-2024-08-01 20:25:02,296 - root - INFO - ****TEst case passed****
-2024-08-01 20:31:49,515 - root - INFO - Test Case Passed
-2024-08-01 20:32:05,054 - root - INFO - ****TEst case passed****
-2024-08-01 20:34:30,626 - root - INFO - Test Case Passed
-2024-08-01 20:34:41,278 - root - INFO - ****TEst case passed****
-2024-08-01 20:38:03,516 - root - INFO - Test Case Passed
-2024-08-01 20:38:14,615 - root - INFO - ****TEst case passed****
-2024-08-01 23:06:39,752 - root - INFO - Test Case Passed
-2024-08-01 23:16:54,752 - root - ERROR - Test Case Failed
-2024-08-01 23:17:50,665 - root - ERROR - Test Case Failed
-2024-08-01 23:20:40,232 - root - ERROR - Test Case Failed
-2024-08-01 23:21:50,603 - root - ERROR - Test Case Failed
-2024-08-01 23:29:34,831 - root - ERROR - Test Case Failed
-2024-08-01 23:34:54,323 - root - ERROR - Test Case Failed
-2024-08-01 23:35:17,785 - root - ERROR - Test Case Failed
-2024-08-01 23:35:52,643 - root - ERROR - Test Case Failed
-2024-08-01 23:37:48,675 - root - ERROR - Test Case Failed
-2024-08-01 23:39:14,756 - root - ERROR - Test Case Failed
-2024-08-01 23:40:32,012 - root - ERROR - Test Case Failed
-2024-08-01 23:43:29,091 - root - ERROR - Test Case Failed
-2024-08-02 00:07:55,682 - root - INFO - Test Case Passed
-2024-08-02 00:08:46,420 - root - INFO - Test Case Passed
+2024-08-02 20:43:39,253 - root - INFO - Button is enabled: True
+2024-08-02 20:43:39,253 - root - INFO - Button is enabled: True
+2024-08-02 20:45:46,180 - root - ERROR - Unable to locate or click add to cart button: Message: element click intercepted: Element is not clickable at point (182, 551)
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69FDE9632+30946]
+	(No symbol) [0x00007FF69FD9E3C9]
+	(No symbol) [0x00007FF69FC96FDA]
+	(No symbol) [0x00007FF69FCEFEEE]
+	(No symbol) [0x00007FF69FCED962]
+	(No symbol) [0x00007FF69FCEAE7B]
+	(No symbol) [0x00007FF69FCEA095]
+	(No symbol) [0x00007FF69FCDC271]
+	(No symbol) [0x00007FF69FD0CA6A]
+	(No symbol) [0x00007FF69FCDBBB6]
+	(No symbol) [0x00007FF69FD0CC80]
+	(No symbol) [0x00007FF69FD2B041]
+	(No symbol) [0x00007FF69FD0C813]
+	(No symbol) [0x00007FF69FCDA6E5]
+	(No symbol) [0x00007FF69FCDB021]
+	GetHandleVerifier [0x00007FF69FF1F83D+1301229]
+	GetHandleVerifier [0x00007FF69FF2BDB7+1351783]
+	GetHandleVerifier [0x00007FF69FF22A03+1313971]
+	GetHandleVerifier [0x00007FF69FE1DD06+245686]
+	(No symbol) [0x00007FF69FDA758F]
+	(No symbol) [0x00007FF69FDA3804]
+	(No symbol) [0x00007FF69FDA3992]
+	(No symbol) [0x00007FF69FD9A3EF]
+	BaseThreadInitThunk [0x00007FF84F6753E0+16]
+	RtlUserThreadStart [0x00007FF85134485B+43]
+
+2024-08-02 20:45:46,180 - root - ERROR - Unable to locate or click add to cart button: Message: element click intercepted: Element is not clickable at point (182, 551)
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69FDE9632+30946]
+	(No symbol) [0x00007FF69FD9E3C9]
+	(No symbol) [0x00007FF69FC96FDA]
+	(No symbol) [0x00007FF69FCEFEEE]
+	(No symbol) [0x00007FF69FCED962]
+	(No symbol) [0x00007FF69FCEAE7B]
+	(No symbol) [0x00007FF69FCEA095]
+	(No symbol) [0x00007FF69FCDC271]
+	(No symbol) [0x00007FF69FD0CA6A]
+	(No symbol) [0x00007FF69FCDBBB6]
+	(No symbol) [0x00007FF69FD0CC80]
+	(No symbol) [0x00007FF69FD2B041]
+	(No symbol) [0x00007FF69FD0C813]
+	(No symbol) [0x00007FF69FCDA6E5]
+	(No symbol) [0x00007FF69FCDB021]
+	GetHandleVerifier [0x00007FF69FF1F83D+1301229]
+	GetHandleVerifier [0x00007FF69FF2BDB7+1351783]
+	GetHandleVerifier [0x00007FF69FF22A03+1313971]
+	GetHandleVerifier [0x00007FF69FE1DD06+245686]
+	(No symbol) [0x00007FF69FDA758F]
+	(No symbol) [0x00007FF69FDA3804]
+	(No symbol) [0x00007FF69FDA3992]
+	(No symbol) [0x00007FF69FD9A3EF]
+	BaseThreadInitThunk [0x00007FF84F6753E0+16]
+	RtlUserThreadStart [0x00007FF85134485B+43]
+
+2024-08-02 20:46:48,614 - root - ERROR - Unable to locate or click add to cart button: Message: element click intercepted: Element is not clickable at point (182, 551)
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69FDE9632+30946]
+	(No symbol) [0x00007FF69FD9E3C9]
+	(No symbol) [0x00007FF69FC96FDA]
+	(No symbol) [0x00007FF69FCEFEEE]
+	(No symbol) [0x00007FF69FCED962]
+	(No symbol) [0x00007FF69FCEAE7B]
+	(No symbol) [0x00007FF69FCEA095]
+	(No symbol) [0x00007FF69FCDC271]
+	(No symbol) [0x00007FF69FD0CA6A]
+	(No symbol) [0x00007FF69FCDBBB6]
+	(No symbol) [0x00007FF69FD0CC80]
+	(No symbol) [0x00007FF69FD2B041]
+	(No symbol) [0x00007FF69FD0C813]
+	(No symbol) [0x00007FF69FCDA6E5]
+	(No symbol) [0x00007FF69FCDB021]
+	GetHandleVerifier [0x00007FF69FF1F83D+1301229]
+	GetHandleVerifier [0x00007FF69FF2BDB7+1351783]
+	GetHandleVerifier [0x00007FF69FF22A03+1313971]
+	GetHandleVerifier [0x00007FF69FE1DD06+245686]
+	(No symbol) [0x00007FF69FDA758F]
+	(No symbol) [0x00007FF69FDA3804]
+	(No symbol) [0x00007FF69FDA3992]
+	(No symbol) [0x00007FF69FD9A3EF]
+	BaseThreadInitThunk [0x00007FF84F6753E0+16]
+	RtlUserThreadStart [0x00007FF85134485B+43]
+
+2024-08-02 20:46:48,614 - root - ERROR - Unable to locate or click add to cart button: Message: element click intercepted: Element is not clickable at point (182, 551)
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69FDE9632+30946]
+	(No symbol) [0x00007FF69FD9E3C9]
+	(No symbol) [0x00007FF69FC96FDA]
+	(No symbol) [0x00007FF69FCEFEEE]
+	(No symbol) [0x00007FF69FCED962]
+	(No symbol) [0x00007FF69FCEAE7B]
+	(No symbol) [0x00007FF69FCEA095]
+	(No symbol) [0x00007FF69FCDC271]
+	(No symbol) [0x00007FF69FD0CA6A]
+	(No symbol) [0x00007FF69FCDBBB6]
+	(No symbol) [0x00007FF69FD0CC80]
+	(No symbol) [0x00007FF69FD2B041]
+	(No symbol) [0x00007FF69FD0C813]
+	(No symbol) [0x00007FF69FCDA6E5]
+	(No symbol) [0x00007FF69FCDB021]
+	GetHandleVerifier [0x00007FF69FF1F83D+1301229]
+	GetHandleVerifier [0x00007FF69FF2BDB7+1351783]
+	GetHandleVerifier [0x00007FF69FF22A03+1313971]
+	GetHandleVerifier [0x00007FF69FE1DD06+245686]
+	(No symbol) [0x00007FF69FDA758F]
+	(No symbol) [0x00007FF69FDA3804]
+	(No symbol) [0x00007FF69FDA3992]
+	(No symbol) [0x00007FF69FD9A3EF]
+	BaseThreadInitThunk [0x00007FF84F6753E0+16]
+	RtlUserThreadStart [0x00007FF85134485B+43]
+
+2024-08-02 20:47:21,550 - root - ERROR - Unable to locate or click add to cart button: Message: element click intercepted: Element is not clickable at point (182, 551)
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69FDE9632+30946]
+	(No symbol) [0x00007FF69FD9E3C9]
+	(No symbol) [0x00007FF69FC96FDA]
+	(No symbol) [0x00007FF69FCEFEEE]
+	(No symbol) [0x00007FF69FCED962]
+	(No symbol) [0x00007FF69FCEAE7B]
+	(No symbol) [0x00007FF69FCEA095]
+	(No symbol) [0x00007FF69FCDC271]
+	(No symbol) [0x00007FF69FD0CA6A]
+	(No symbol) [0x00007FF69FCDBBB6]
+	(No symbol) [0x00007FF69FD0CC80]
+	(No symbol) [0x00007FF69FD2B041]
+	(No symbol) [0x00007FF69FD0C813]
+	(No symbol) [0x00007FF69FCDA6E5]
+	(No symbol) [0x00007FF69FCDB021]
+	GetHandleVerifier [0x00007FF69FF1F83D+1301229]
+	GetHandleVerifier [0x00007FF69FF2BDB7+1351783]
+	GetHandleVerifier [0x00007FF69FF22A03+1313971]
+	GetHandleVerifier [0x00007FF69FE1DD06+245686]
+	(No symbol) [0x00007FF69FDA758F]
+	(No symbol) [0x00007FF69FDA3804]
+	(No symbol) [0x00007FF69FDA3992]
+	(No symbol) [0x00007FF69FD9A3EF]
+	BaseThreadInitThunk [0x00007FF84F6753E0+16]
+	RtlUserThreadStart [0x00007FF85134485B+43]
+
+2024-08-02 20:47:21,550 - root - ERROR - Unable to locate or click add to cart button: Message: element click intercepted: Element is not clickable at point (182, 551)
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69FDE9632+30946]
+	(No symbol) [0x00007FF69FD9E3C9]
+	(No symbol) [0x00007FF69FC96FDA]
+	(No symbol) [0x00007FF69FCEFEEE]
+	(No symbol) [0x00007FF69FCED962]
+	(No symbol) [0x00007FF69FCEAE7B]
+	(No symbol) [0x00007FF69FCEA095]
+	(No symbol) [0x00007FF69FCDC271]
+	(No symbol) [0x00007FF69FD0CA6A]
+	(No symbol) [0x00007FF69FCDBBB6]
+	(No symbol) [0x00007FF69FD0CC80]
+	(No symbol) [0x00007FF69FD2B041]
+	(No symbol) [0x00007FF69FD0C813]
+	(No symbol) [0x00007FF69FCDA6E5]
+	(No symbol) [0x00007FF69FCDB021]
+	GetHandleVerifier [0x00007FF69FF1F83D+1301229]
+	GetHandleVerifier [0x00007FF69FF2BDB7+1351783]
+	GetHandleVerifier [0x00007FF69FF22A03+1313971]
+	GetHandleVerifier [0x00007FF69FE1DD06+245686]
+	(No symbol) [0x00007FF69FDA758F]
+	(No symbol) [0x00007FF69FDA3804]
+	(No symbol) [0x00007FF69FDA3992]
+	(No symbol) [0x00007FF69FD9A3EF]
+	BaseThreadInitThunk [0x00007FF84F6753E0+16]
+	RtlUserThreadStart [0x00007FF85134485B+43]
+
+2024-08-02 21:03:48,923 - root - INFO - *TestCase Passed*
+2024-08-02 21:03:48,923 - root - INFO - *TestCase Passed*
+2024-08-02 21:06:21,814 - root - INFO - Test Case Passed
+2024-08-02 21:06:21,814 - root - INFO - Test Case Passed
+2024-08-02 21:06:21,814 - root - INFO - Test Case Passed
+2024-08-02 21:06:21,814 - root - INFO - Test Case Passed
+2024-08-02 21:06:21,814 - root - INFO - Test Case Passed
+2024-08-02 22:57:34,278 - root - INFO - ****TEst case passed****
+2024-08-02 22:58:26,494 - root - INFO - *TestCase Passed*
+2024-08-02 22:58:26,494 - root - INFO - *TestCase Passed*
+2024-08-02 22:58:53,614 - root - INFO - *TestCase Passed*
+2024-08-02 22:58:53,614 - root - INFO - *TestCase Passed*

@@ -1,3 +1,4 @@
+import pytest
 import selenium
 from Utilities.readProperties import readConfig
 from Utilities.customLogger import LogGen
@@ -25,41 +26,26 @@ class TestProdSearch:
 
     
 
-
-    # def test_prodsearch(self, setup):
-    #     self.driver=setup
-    #     self.driver.get(self.baseURL)
-    #     self.driver.maximize_window()
-    #     itemObject=add_items(self.driver)
-    #     itemObject.setProduct(self.item)
-    #     current_title=self.driver.title.strip()
-    #     print("Page title is ", current_title)
-    #     print("Product page title is ", self.prodduct_page_title)
-    #     print("current Page title length is ", len(current_title))
-    #     print("Product page title is ", len(self.prodduct_page_title))
-    #     if self.prodduct_page_title.lower() in current_title.lower():
-    #         self.logger.info("****TEst case passed****")
-    #         self.driver.quit()
-    #         assert True
-    #     else:
-    #         self.logger.info("Test Case failed")
-    #         self.driver.quit()
-    #         assert False
-
-
-    def test_selectProduct(self, setup):
+    @pytest.mark.regression
+    def test_prodsearch(self, setup):
         self.driver=setup
         self.driver.get(self.baseURL)
         self.driver.maximize_window()
         itemObject=add_items(self.driver)
         itemObject.setProduct(self.item)
-        desiredProduct=all_items(self.driver)
-        desiredProduct.clickProduct()
-        self.driver.quit()
-
-
-
-
+        current_title=self.driver.title.strip()
+        print("Page title is ", current_title)
+        print("Product page title is ", self.prodduct_page_title)
+        print("current Page title length is ", len(current_title))
+        print("Product page title is ", len(self.prodduct_page_title))
+        if self.prodduct_page_title.lower() in current_title.lower():
+            self.logger.info("****TEst case passed****")
+            self.driver.quit()
+            assert True
+        else:
+            self.logger.info("Test Case failed")
+            self.driver.quit()
+            assert False
 
 
     

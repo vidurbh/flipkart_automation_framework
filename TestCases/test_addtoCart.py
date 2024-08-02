@@ -1,5 +1,5 @@
-import time
 import selenium
+import time
 from Utilities.readProperties import readConfig
 from Utilities.customLogger import LogGen
 from PageObjects.flipkarthomepage import add_items
@@ -12,7 +12,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 
-class TestProdSearch:
+class TestaddToCart:
     baseURL=readConfig.getURL().strip()
     pageTitle=readConfig.getMainPageTitle().strip()
     item=readConfig.getProductName()
@@ -22,9 +22,9 @@ class TestProdSearch:
     productpageTitle=readConfig.get_iqooTornadoGreen_page_title().strip()
 
 
-        
+    
 
-    def test_selectProduct(self, setup):
+    def test_addToCart(self, setup):
         self.driver=setup
         self.driver.get(self.baseURL)
         self.driver.maximize_window()
@@ -32,18 +32,11 @@ class TestProdSearch:
         itemObject.setProduct(self.item)
         desiredProduct=all_items(self.driver)
         desiredProduct.clickProduct()
-        time.sleep(2)
         self.windows=self.driver.window_handles
         # print("all window handles", len(self.windows))
         self.new_window=self.windows[1]
         self.driver.switch_to.window(self.new_window)
-        print("Actual Title is", self.productpageTitle )
-        print("Current title is", self.driver.title)
-        if self.productpageTitle in self.driver.title:
-                self.logger.info("*TestCase Passed*")
-                self.driver.quit()
-                assert True
-        else:
-                self.logger.info("*TestCase Failed*")
-                self.driver.quit()
-                assert False
+        
+        app=actual_product_page(self.driver)
+        app.click_addToCart()
+        time.sleep(5)

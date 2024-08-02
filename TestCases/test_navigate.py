@@ -1,3 +1,4 @@
+import pytest
 import selenium
 from Utilities.readProperties import readConfig
 from Utilities.customLogger import LogGen
@@ -16,6 +17,8 @@ class TestNavigate:
         pageTitle=readConfig.getMainPageTitle().strip()
         logger=LogGen.loggen()
      
+        @pytest.mark.regression
+        @pytest.mark.sanity
 
         def test_navigateToFlipkart(self, setup):
                 self.driver=setup
