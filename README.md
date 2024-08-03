@@ -1,7 +1,7 @@
 # Frontend Flipkart Framework
 
 # Description
-This project includes a very basic hybrid framework, have used pytest for running the tests. Code is written in Python
+This project includes a very basic hybrid framework, We have used pytest for running the tests. Code is written in Python
 
 ## Table of Contents
 - [Installation](#installation)
@@ -9,17 +9,28 @@ This project includes a very basic hybrid framework, have used pytest for runnin
 
 
 ## Installation
-To get started with Awesome Project, clone the repository and install the dependencies:
+To get started with this, clone the repository and install the dependencies:
 
-git clone https://github.com/username/flipkart_automation_framework.git
-cd flipkart
+git clone https://github.com/username/flipkart_automation_framework.git 
+# Replace `username` with your actual GitHub username in the above command.
 
-For running the testcases, Few sample Testcases are added in the Testcases folder. FOllowing commands can be used for running it
+cd flipkart_automation_framework
+
+# After the repo is cloned, run setup.bat with the following command
+
+.\setup.bat 
+# The above command will create a virtual environment in the directory and download the required dependency
+
+# To activate the virtual environment, run the following command
+.\venv\Scripts\activate
+
+# For running the testcases, Few sample Testcases are added in the Testcases folder. FOllowing commands can be used for running it
 pytest -v -s -m "sanity" --browser Chrome --html=Reports/report.html 
 pytest -v -s .\TestCases\test_selectProduct.py --browser Chrome --html=Reports/report.html
 pytest -v -s .\TestCases\test_navigate.py --browser Chrome --html=Reports/report.html 
 pytest -v -s .\TestCases\test_productsearch.py --browser Chrome --html=Reports/report.html
 
-Incase you want to run it through a batch file, you can uncomment the desired command and run it.
+# Incase you want to run it through a batch file, you can uncomment the desired command and run it.
+.\run.bat
 
 
