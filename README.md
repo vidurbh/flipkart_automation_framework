@@ -13,7 +13,6 @@ To get started with this, clone the repository and install the dependencies:
 
 git clone https://github.com/vidurbh/flipkart_automation_framework.git 
 
-
 cd flipkart_automation_framework
 
 # After the repo is cloned, run setup.bat with the following command
