@@ -11,8 +11,7 @@ This project includes a very basic hybrid framework, We have used pytest for run
 ## Installation
 To get started with this, clone the repository and install the dependencies:
 
-git clone https://github.com/username/flipkart_automation_framework.git 
-# Replace `username` with your actual GitHub username in the above command.
+git clone https://github.com/vidurbh/flipkart_automation_framework.git 
 
 cd flipkart_automation_framework
 
